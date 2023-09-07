@@ -1,0 +1,23 @@
+-- import: fastn-community.github.io/bling/quote
+
+-- component page:
+optional caption title:
+optional body body:
+children wrapper:
+
+-- ds.page: $page.title
+body: $page.body
+wrapper: $page.wrapper
+colors: $winter-cs.main	
+
+;; content goes here
+
+-- end: ds.page
+
+-- end: page
+
+-- quote.rustic: Malcolm X
+
+Education is the passport to the future, for
+ tomorrow belongs to those who prepare for it today.
+
